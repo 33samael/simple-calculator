@@ -1,0 +1,54 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: radial-gradient(circle, #2c2c2c, #808080);
+	height: 100vh;
+	color: whitesmoke;
+	font-family: monospace;
+	text-align: center;
+}
+
+.fundo{
+	margin-bottom: 10px;
+	background-color: #191919;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+button{
+	width: 40px;
+	height: 40px;
+	font-size: 17px;
+	border: 2px;
+	cursor: pointer;
+	background: #545454;
+	color: whitesmoke;
+}
+
+button:hover{
+	background-color: #3f3f3f;
+}
+
+.tela{
+
+	background-color: whitesmoke;
+	height: 25px;
+	color: black;
+	max-width: 166px;
+	box-sizing: border-box;
+	font-size: 17px;
+	overflow-x: hidden;
+	font-family: inherit;
+	text-align: end;
+	margin: 2px;
+	padding: 2px;
+
+}

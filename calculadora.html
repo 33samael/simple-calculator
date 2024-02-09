@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="javascript.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="fundo">
+		<h2>Calculator</h2>
+		<div class="tela">33samael</div>
+		<table>
+			<tr>
+				<td><button style="background: #7f0000;" onclick="apagar()">🗑️</button></td>
+				<td><button onclick="voltar()">❌</button></td>
+				<td><button onclick="inserir('/')">➗</button></td>
+				<td><button onclick="inserir('*')">✖️</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="inserir('7')">7</button></td>
+				<td><button onclick="inserir('8')">8</button></td>
+				<td><button onclick="inserir('9')">9</button></td>
+				<td><button onclick="inserir('-')">➖</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="inserir('4')">4</button></td>
+				<td><button onclick="inserir('5')">5</button></td>
+				<td><button onclick="inserir('6')">6</button></td>
+				<td><button onclick="inserir('+')">➕</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="inserir('1')">1</button></td>
+				<td><button onclick="inserir('2')">2</button></td>
+				<td><button onclick="inserir('3')">3</button></td>
+				<td rowspan="2"><button style="height: 82px; background: #e50000;" onclick="calcular()">=</button></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button style="width: 82px;" onclick="inserir('0')">0</button></td>
+				<td><button onclick="inserir('.')">,</button></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
